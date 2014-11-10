@@ -1,0 +1,141 @@
+@font-face {
+    font-family: Lobster;
+    src: url(Lobster.otf);
+}
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 920px;
+}
+
+body {
+    background-color: #F3F3F5;
+    font-family: Open-sans, sans-serif;
+}
+
+body > header {
+    width: 100%;
+    background-image: url(02_Images/bgr.jpg);
+}
+
+content, header, footer {
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header > div {
+    width: 330px;
+    height: 120px;
+    background-color: rgba(112, 112, 112, 0.9);
+    font-family: Lobster, sans-serif;
+    position: absolute;
+    top: 220px;
+    left: 960px;
+
+}
+
+header > img {
+    margin-left: 485px;
+}
+
+h1 {
+    font-size: 72px;
+    margin: 15px 0px 0px 0px;
+    padding: 0px;
+    color: white;
+    font-weight: normal;
+    margin-left: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+li {
+    width: 200px;
+    height: 40px;
+    background-color: #4E5359;
+    border-top: 1px solid #50555B;
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+li:hover {
+    background-color: #42464B;
+    box-shadow: inset 5px 0px 0px 0px #2F6D6C;
+    cursor: pointer;
+}
+
+aside {
+    float: left;
+}
+
+aside > img {
+    width: 220px;
+    opacity: 0.7;
+}
+
+#articles-div{
+    float: right;
+    width: 670px;
+    vertical-align: top;
+}
+
+section {
+    background-color: white;
+    padding: 0px 5px 5px 20px;
+    border-top: 5px solid #BBBABF;
+    margin-top: 15px;
+}
+
+section > h2 {
+    color: #BBBABF;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+article > header {
+    color: #0D00EE;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+header > h2:hover {
+    cursor: pointer;
+}
+
+header > h2 {
+    padding: 0px;
+    margin: 0px;
+    font-size: 18px;
+}
+
+p {
+    margin-top: 5px;
+    color: #A8ADB1;
+}
+#third-section {
+    margin-bottom: 20px;
+}
+
+footer {
+    clear: both;
+    height: 100px;
+    width: 100%;
+    background-color: #C9C7CC;
+}
+
+footer p {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    left: 500px;
+    vertical-align: middle;
+    color: #4F5359;
+    margin-top: 20px;
+}
